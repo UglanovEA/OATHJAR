@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: center bottom, top left;
   background-size: 100% auto;
+  position: relative;
   padding-top: 90px;
   padding-bottom: 410px;
 }
@@ -156,4 +157,28 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 1;
+}
+.header-circle {
+  display: block;
+  width: 81px;
+  height: 81px;
+  border-radius: 50px;
+  background-color: rgba(235, 82, 56, 0.2);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header-circle__inner {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: #eb5238;
+  background-image: url("../img/icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  z-index: 2;
 }

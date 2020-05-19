@@ -7,6 +7,7 @@
     <title>OathJar</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/header.css" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700"
       rel="stylesheet"
@@ -30,9 +31,9 @@
         <div class="header-content">
           <img class="header__mail" src="img/pictures/mail.png" alt="mail" />
           <p class="header__caption">You got an Invite!</p>
-          <h2 class="header__title">
+          <h1 class="header__title">
             You have been invited to confirm the following relationship
-          </h2>
+          </h1>
         </div>
         <div class="header-names">
           <div class="header-names-left">
@@ -53,7 +54,47 @@
             </p>
           </div>
         </div>
+        <div class="header-circle">
+          <div class="header-circle__inner"></div>
+        </div>
       </div>
     </header>
+    <div class="fur-info-wrapper">
+      <div class="container">
+        <div class="fur-info-content">
+          <h2 class="title-h2">Further Information</h2>
+          <p>
+            We, at OathJar, think it’s really important that couples have some
+            ground rules in place as they prgress through their relationships.
+            That’s why we’re dedicated to offer you a secure environment where
+            you can establish those promises
+          </p>
+          <ul class="fur-info-checklist">
+            <li>Professional and secure environment</li>
+            <li>100% Private couple profiles and promises</li>
+            <li>Unlimited space</li>
+            <li>Notification Reminders</li>
+          </ul>
+          <p>We just need your name as a signature</p>
+
+          <form class="form" action="">
+            <div class="form-group">
+              <input class="input" type="text" placeholder="Your name" />
+              <label class="form-label">
+                <input class="checkbox" type="checkbox" />
+                <span class="checkbox-fake"></span>
+                <span class="checkbox-desc"
+                  >I accept the <a href="#!">OathJar TOS</a></span
+                >
+              </label>
+            </div>
+            <div class="form-group">
+              <input class="submit" type="submit" value="approve invitation" />
+              <div class="form-notice">or go to <a href="#!">home page</a></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
