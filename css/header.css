@@ -130,7 +130,7 @@
 }
 .header-scroll-bg::before {
   content: "";
-  width: 57px;
+  width: 73px;
   height: 174px;
   display: block;
   position: absolute;
@@ -142,7 +142,7 @@
 }
 .header-scroll-bg::after {
   content: "";
-  width: 57px;
+  width: 73px;
   height: 174px;
   display: block;
   position: absolute;
