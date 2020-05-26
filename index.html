@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OathJar</title>
+    <title>OATHJAR</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/card.css" />
-    <link rel="stylesheet" href="css/footer.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700"
       rel="stylesheet"
@@ -18,24 +14,22 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="cloud-1"></div>
-        <div class="cloud-2"></div>
-        <div class="header-logo">
+        <div class="logo-content">
           <div class="logo">
-            <div class="tagline">Where promises <span>are kept</span></div>
+            <div class="logo_tagline">Where promises <span>are kept</span></div>
             <img src="img/pictures/logo.png" alt="logo" />
           </div>
-          <div class="promises-counter">
-            <div class="promises-counter__icon">
-              <img src="img/icons/promise.svg" alt="promise" />
+          <div class="logo-counter">
+            <div class="logo-counter__icon">
+              <img src="img/icons/counter.svg" alt="counter" />
             </div>
-            <div class="promises-counter__number">31,122 &plus;</div>
-            <div class="promises-counter__desc">promises</div>
+            <div class="logo-counter__number">31,122 +</div>
+            <div class="logo-counter__desc">promises</div>
           </div>
         </div>
         <div class="header-content">
-          <img class="header__mail" src="img/pictures/mail.png" alt="mail" />
-          <p class="header__caption">You got an Invite!</p>
+          <img class="header__icon" src="img/icons/mail.png" alt="mail" />
+          <p class="header__invite">You got an Invite!</p>
           <h1 class="header__title">
             You have been invited to confirm the following relationship
           </h1>
@@ -45,69 +39,73 @@
             <p class="header-names__name">John Smith</p>
             <p class="header-names__email">johnsmith@gmail.com</p>
           </div>
-          <div class="header-names-button"></div>
           <div class="header-names-right">
             <p class="header-names__name">Janice Smith</p>
             <p class="header-names__email">janicesmith@hotmail.com</p>
           </div>
         </div>
-        <div class="header-scroll">
-          <h3 class="header-scroll__desc">There’s a message inside</h3>
-          <div class="header-scroll-bg">
-            <p class="header-scroll-bg__title">
+        <div class="scroll">
+          <p class="scroll__desc">There’s a message inside</p>
+          <div class="scroll-bg">
+            <p class="scroll__title">
               Hi Janice! Check out this great website
             </p>
           </div>
         </div>
       </div>
-      <div class="header-circle">
-        <div class="header-circle__inner"></div>
-      </div>
     </header>
-    <div class="fur-info-wrapper">
+    <section class="further-wrapper">
       <div class="container">
-        <div class="fur-info-content">
-          <h2 class="title-h2">Further Information</h2>
+        <div class="further-image-mobile">
+          <img src="img/pictures/people.png" alt="people" />
+        </div>
+        <div class="further-content">
+          <h2 class="further-content__title">Further Information</h2>
           <p>
             We, at OathJar, think it’s really important that couples have some
-            ground rules in place as they progress through their relationships.
+            ground rules in place as they prgress through their relationships.
             That’s why we’re dedicated to offer you a secure environment where
             you can establish those promises
           </p>
-          <ul class="fur-info-checklist">
+          <ul class="further-content-checklist">
             <li>Professional and secure environment</li>
             <li>100% Private couple profiles and promises</li>
             <li>Unlimited space</li>
             <li>Notification Reminders</li>
           </ul>
           <p>We just need your name as a signature</p>
-
-          <form class="form" action="">
-            <div class="form-group">
-              <input class="input" type="text" placeholder="Your name" />
-              <label class="form-label">
-                <input class="checkbox" type="checkbox" />
-                <span class="checkbox-fake"></span>
-                <span class="checkbox-desc"
+          <form class="further-content-form" action="">
+            <div class="further-content-form-input">
+              <input class="form__input" type="text" placeholder="Your name" />
+              <label class="form-input-label">
+                <input class="form-input-label__checkbox" type="checkbox" />
+                <span class="form-input-label__checkbox-fake"></span>
+                <span class="form-input-label__checkbox-desc"
                   >I accept the <a href="#!">OathJar TOS</a></span
                 >
               </label>
             </div>
-            <div class="form-group">
-              <input class="submit" type="submit" value="approve invitation" />
-              <div class="form-notice">or go to <a href="#!">home page</a></div>
+            <div class="further-content-form-input">
+              <input
+                class="form-submit__submit"
+                type="submit"
+                value="approve invitation"
+              />
+              <div class="form-submit__notice">
+                or go to <a href="#!">home page</a>
+              </div>
             </div>
           </form>
         </div>
       </div>
-    </div>
-    <div class="about-wrapper">
-      <div class="container justify-between">
+    </section>
+    <section class="about-wrapper">
+      <div class="container about-container">
         <div class="about-cards">
-          <div class="cards-1-column">
+          <div class="about-cards-1-column">
             <div class="card">
               <div class="card-circle">
-                <div class="card-circle-inner">
+                <div class="card-circle__inner">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -123,7 +121,7 @@
                     </defs>
                     <g>
                       <g transform="translate(-215 -2053)">
-                        <use class="svg-path" fill="#fff" xlink:href="#mxp1a" />
+                        <use class="svg-g" fill="#fff" xlink:href="#mxp1a" />
                       </g>
                     </g>
                   </svg>
@@ -163,9 +161,10 @@
                 </a>
               </div>
             </div>
+
             <div class="card">
               <div class="card-circle">
-                <div class="card-circle-inner">
+                <div class="card-circle__inner">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -181,7 +180,7 @@
                     </defs>
                     <g>
                       <g transform="translate(-215 -2409)">
-                        <use class="svg-path" fill="#fff" xlink:href="#t0ffa" />
+                        <use class="svg-g" fill="#fff" xlink:href="#t0ffa" />
                       </g>
                     </g>
                   </svg>
@@ -221,10 +220,10 @@
               </div>
             </div>
           </div>
-          <div class="cards-2-column">
+          <div class="about-cards-2-column">
             <div class="card">
               <div class="card-circle">
-                <div class="card-circle-inner">
+                <div class="card-circle__inner">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -240,7 +239,7 @@
                     </defs>
                     <g>
                       <g transform="translate(-496 -2201)">
-                        <use class="svg-path" fill="#fff" xlink:href="#2z6ba" />
+                        <use class="svg-g" fill="#0d3e60" xlink:href="#2z6ba" />
                       </g>
                     </g>
                   </svg>
@@ -252,7 +251,7 @@
                 yourselves
               </div>
               <div class="card__read-more">
-                <a class="card__read-more-link" href="#!">
+                <a class="card__read-more-link" href="#">
                   <span class="card__read-more-text">learn more</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -283,22 +282,50 @@
           </div>
         </div>
         <div class="about-content">
-          <div class="about-toggle-wrapper">
-            <a href="#!" class="about__toggle">Why Use OathJar</a>
-            <a href="#!" class="about__toggle">How it Works</a>
-            <a href="#!" class="about__toggle">OathJar is Private</a>
+          <div class="about-button-wrapper">
+            <a href="#whyuse" class="about__button">Why Use OathJar</a>
+            <a href="#howitworks" class="about__button">How it Works</a>
+            <a href="#private" class="about__button">OathJar is Private</a>
           </div>
-          <h2 class="about__title">What is OathJar?</h2>
-          <p>
-            OathJar is a brand new company aimed at providing people in an
-            active relationship with a place of their own to set the rules and
-            guidelines of their relationships
-          </p>
+          <div class="about-content-box-wrapper">
+            <div class="about-content-box" id="whyuse">
+              <h2 class="about-content-box__title">Why Use OathJar</h2>
+              <p>
+                OathJar is a brand new company aimed at providing people in an
+                active relationship with a place of their own to set the rules
+                and guidelines of their relationships
+              </p>
+            </div>
+            <div class="about-content-box" id="howitworks">
+              <h2 class="about-content-box__title">How it Works</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium eaque aliquam veritatis vero ducimus neque
+                voluptatem itaque, similique sunt quis? Quisquam aliquam cum
+                laborum dolore optio sapiente amet veritatis, laudantium iste
+                necessitatibus.
+              </p>
+            </div>
+
+            <div class="about-content-box" id="private">
+              <h2 class="about-content-box__title">OathJar is Private</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum praesentium nisi, assumenda optio debitis incidunt.
+              </p>
+              <p>
+                Laboriosam sequi asperiores reprehenderit dolorem est similique
+                placeat quas eos eius dolore unde earum ex vero quidem.
+                Molestiae cumque nam voluptates mollitia, optio officia!
+                Blanditiis, nostrum, quas.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer">
-      <div class="container justify-between align-center">
+    </section>
+    <footer class="footer">
+      <div class="container footer-container">
         <div class="footer-copyright">
           <div class="footer-copyright__logo">
             <img src="img/pictures/logo.png" alt="Logo" />
@@ -316,6 +343,11 @@
           </ul>
         </div>
       </div>
+    </footer>
+    <div id="scrollToTop" class="scrollToTop-wrapper">
+      <div class="scrollToTop__icon"></div>
     </div>
+    <script src="libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
