@@ -474,11 +474,12 @@ body {
     margin-bottom: 0;
   }
 }
-.form__input:focus {
-  outline: none;
-}
 .form-input-label__checkbox {
-  display: none;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
 }
 .form-input-label__checkbox-fake {
   display: inline-block;
@@ -522,6 +523,9 @@ body {
   font-weight: 700;
   text-decoration: underline;
 }
+.form-input-label__checkbox:focus + .form-input-label__checkbox-fake {
+  border: 2px solid #000000;
+}
 .form-submit__submit {
   width: 216px;
   height: 52px;
@@ -538,9 +542,6 @@ body {
 }
 .form-submit__submit:hover {
   background-image: linear-gradient(to top, #eb5238 0%, #eb6f38 100%);
-}
-.form-submit__submit:focus {
-  outline-style: none;
 }
 @media (min-width: 700px) {
   .form-submit__submit {
