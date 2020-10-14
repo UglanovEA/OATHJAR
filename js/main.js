@@ -1,31 +1,24 @@
 $(document).ready(function () {
+  // Tabs
   $(".about__button").click(function (event) {
     event.preventDefault();
-    console.log("Click!");
-
     $(".about-content-box").hide();
-    var href = $(this).attr("href"); // '#private'
-
-    console.log(href);
+    var href = $(this).attr("href");
     $(href).fadeIn();
   });
-
   var windowHeight = $(window).height();
-  console.log(windowHeight);
 
-  // Следим за скроллом, и показываем / скрываем кнопку
+
+  // Button to top
   $(window).scroll(function () {
-    console.log($(this).scrollTop());
     if ($(this).scrollTop() > windowHeight) {
       $("#scrollToTop").fadeIn();
     } else {
       $("#scrollToTop").fadeOut();
     }
   });
-
-  // При клике на кнопку - делаем прокуртку наверх страницы
+  // Click to top
   $("#scrollToTop").click(function (event) {
-    console.log(11111);
     event.preventDefault();
     $("html").animate({ scrollTop: 0 }, 800);
   });
