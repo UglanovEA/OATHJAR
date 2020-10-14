@@ -10,10 +10,8 @@ body {
 }
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
   position: relative;
 }
 @media (min-width: 1140px) {
@@ -94,8 +92,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    padding-top: 0px;
-    margin-bottom: 23px;
+    padding-top: 0;
     margin-bottom: 23px;
   }
 }
@@ -113,6 +110,7 @@ body {
   width: 276px;
   color: #0d3e60;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.2;
   border-radius: 24px;
   background-color: #ffffff;
@@ -165,7 +163,7 @@ body {
 .header-content {
   max-width: 650px;
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .header__icon {
   margin-bottom: 30px;
@@ -194,7 +192,7 @@ body {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  margin: 0px auto 60px auto;
+  margin: 0 auto 60px;
 }
 @media (min-width: 1140px) {
   .header-names {
@@ -307,16 +305,16 @@ body {
   position: relative;
   text-align: center;
   padding: 0 50px;
-  margin: 0px 15px;
+  margin: 0 15px;
 }
 @media (min-width: 800px) {
   .scroll-bg {
-    margin: 0px auto;
+    margin: 0 auto;
   }
 }
 @media (min-width: 1140px) {
   .scroll-bg {
-    margin: 0px auto;
+    margin: 0 auto;
   }
 }
 .scroll-bg::before {
@@ -350,11 +348,11 @@ body {
   line-height: 1.3;
 }
 .further-wrapper {
-  padding: 60px 0px 35px 0px;
+  padding: 60px 0 35px;
 }
 @media (min-width: 700px) {
   .further-wrapper {
-    padding: 105px 0px 65px 0px;
+    padding: 105px 0 65px;
   }
 }
 @media (min-width: 1140px) {
@@ -468,7 +466,7 @@ body {
   font-weight: 700;
   line-height: 1;
   padding: 5px 26px;
-  margin: 0px 25px 25px 0px;
+  margin: 0 25px 25px 0;
 }
 @media (min-width: 700px) {
   .form__input {
@@ -497,8 +495,8 @@ body {
 .form-input-label__checkbox-fake::after {
   content: "";
   display: block;
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   border-radius: 8px;
   background-color: #eb5238;
   transition: 0.2s ease-in;
@@ -536,7 +534,7 @@ body {
   border-radius: 20px;
   background-color: #eb5238;
   background-image: linear-gradient(to top, #eb6f38 0%, #eb5238 100%);
-  margin: 0px 27px 15px 0px;
+  margin: 0 27px 15px 0;
 }
 .form-submit__submit:hover {
   background-image: linear-gradient(to top, #eb5238 0%, #eb6f38 100%);
@@ -563,7 +561,7 @@ body {
 .about-wrapper {
   position: relative;
   overflow: hidden;
-  padding-top: 0px;
+  padding-top: 0;
 }
 @media (min-width: 1140px) {
   .about-wrapper {
@@ -725,7 +723,7 @@ body {
   transition: all 0.4s ease-in-out;
 }
 .cards-2-column {
-  padding-top: 0px;
+  padding-top: 0;
 }
 @media (min-width: 600px) {
   .cards-2-column {
@@ -742,12 +740,12 @@ body {
   }
   .cards-2-column {
     padding-top: 0;
-    padding-left: 0px;
+    padding-left: 0;
   }
 }
 @media (min-width: 1140px) {
   .cards-2-column {
-    padding-left: 0px;
+    padding-left: 0;
     padding-top: 150px;
   }
 }
@@ -879,11 +877,11 @@ a.about__button {
   }
 }
 .footer-copyright__logo {
-  margin: 0px 17px 15px 0px;
+  margin: 0 17px 15px 0;
 }
 @media (min-width: 890px) {
   .footer-copyright__logo {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 .footer-navigation {
@@ -917,7 +915,7 @@ a.about__button {
 }
 @media (min-width: 890px) {
   .footer-navigation-list li {
-    margin: 0px 33px 0px 0px;
+    margin: 0 33px 0 0;
   }
 }
 .footer-navigation-list li:last-child {
