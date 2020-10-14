@@ -22,4 +22,8 @@ $(document).ready(function () {
     event.preventDefault();
     $("html").animate({ scrollTop: 0 }, 800);
   });
+  $("#scrollToTop").focus(function (event) {
+    event.preventDefault();
+    $("html").animate({ scrollTop: 0 }, 800);
+  });
 });
